@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+form {
+    background-color: #AAA;
+    border-radius: 10px;
+    padding: 20px;
+    margin: auto;
+    width: 30%;
+    height: 50%;
+}
+
+form input {
+    display: block;
+    margin: auto;
+    border-bottom-right-radius: 7px;
+    border-top-left-radius: 7px;
+}
+
+form label{
+    display: block;
+    text-align: center;
+}
+

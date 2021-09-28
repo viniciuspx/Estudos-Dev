@@ -1,0 +1,20 @@
+#titulo, .text{
+    color: green;
+    font-size: 26px;
+}
+
+.text {
+    font-weight: bold;
+}
+
+#titulo {
+    font-weight: normal;
+}
+
+ol li{
+    color: pink;
+}
+
+ul li{
+    color: greenyellow;
+}

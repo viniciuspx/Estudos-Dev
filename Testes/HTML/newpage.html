@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estudos HTML5/CSS3</title>
+        <link rel="stylesheet" href="../CSS/newstyle.css">
+    </head>
+    <body>
+
+        <form method="POST" action="ghost" enctype="multipart/form-data">
+
+            <fieldset>
+                <legend>Dados Pessoas</legend>
+                <label>
+                    Primeiro nome: <br>
+                    <input type="text" name="name" required minlength="2" maxlength="32">
+                </label> <br>   
+
+                <label>
+                    Sobrenome: <br>
+                    <input type="text" name="lastname" required>
+                </label> <br>
+
+                <label >
+                    Foto: <br>
+                    <input type="file" name="photo" accept="image/*">
+                </label>
+
+            </fieldset>
+            
+            <fieldset>            
+                <legend>Dados Profissionais</legend>
+                <label>
+                    Nome da empresa: <br>
+                    <input type="text" name="companyname">
+                </label> <br>
+
+                <label>
+                    Cargo na empresa: <br>
+                    <input type="text" name="jobtitle">
+                </label> <br>
+            </fieldset>
+
+
+            <input type="submit" value="Cadastrar">
+
+        </form>
+        
+    </body>
+</html>

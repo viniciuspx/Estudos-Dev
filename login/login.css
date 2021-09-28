@@ -1,0 +1,82 @@
+*{
+    box-sizing: border-box;
+
+    /* border: 1px solid red; */
+}
+
+body {
+    margin: 0;
+}
+
+:root {
+    --bg-container: rgb(156, 204, 190);
+    --bg-loginbox: rgb(37, 37, 37);
+    --bg-inputs: rgb(255,255,255);
+    --bg-submit: rgb(255,255,255);
+    --bg-submit-hover: rgb(200,200,200);
+    --font-size-title: 2rem;
+    --font-size: 1.2rem;
+    --font-color: #FFF;
+    --border-color: #FFF;
+}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+    background-color: var(--bg-container);
+}
+
+.login-box {
+    display: inherit;
+    position: relative;
+    margin: auto;
+    min-width: 40%;
+    padding: 1rem;
+    background-color: var(--bg-loginbox);
+}
+
+#input-form{
+    width: calc(100% - 1rem);
+    min-width: inherit;
+    margin: auto;
+    display: block;
+    text-align: center;
+    font-size: var(--font-size);
+}
+
+#input-form h1 {
+    position: relative;
+    margin: auto;
+    font-size: var(--font-size-title);
+    color: var(--font-color);
+}
+
+.login-data {
+    width: calc(100% - 1rem);
+    display: inherit;
+    position: relative;
+    margin: auto;
+    border: 1px solid var(--bg-inputs);
+    font-size: inherit;
+}
+
+.submit {
+    display: inherit;
+    width: 5rem;
+    position: relative;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--bg-submit);
+    border: 1px solid var(--border-color);
+    font-size: inherit;
+}
+
+.submit:hover {
+    background-color: var(--bg-submit-hover);
+}
+
+::-webkit-input-placeholder {
+    text-align: center;
+ }

@@ -1,15 +1,18 @@
-## Estudos Dev
+# Estudos Dev
+
 Registros dos meus estudos em Web Dev 
+
 Files of my studies in Web Dev
 
-## Arquivos / Files
+# Arquivos / Files
 
-# Login
+## Login
 
 Layout simples de um página de login
+
 Simple layout of a login page
 
-# siteMedico
+## siteMedico
 
 Layout de um site Médico / Clinica
 

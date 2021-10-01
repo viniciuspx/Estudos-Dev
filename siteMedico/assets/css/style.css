@@ -1,0 +1,168 @@
+*{
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    height: 7.5rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 62rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+}
+
+nav ul,
+nav li{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul{
+    display: flex;
+}
+
+nav a{
+    display: block;
+    padding: 1rem;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #727272;
+}
+
+nav .active a,
+nav a:hover {
+    background-color: #39AAE1;
+    color: #FFFFFF;
+}
+
+.column {
+    flex-direction: column;
+}
+
+#banner {
+    display: flex;
+    justify-content: center;
+    background-image: url('../img/img1.jpg');
+    background-position: center;
+    background-size: cover;
+    height: 40rem;
+}
+
+.banner_headline {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner_headline h1 {
+    color: #FFFFFF;
+    font-size: 3.5rem;
+    text-shadow: 0px 1px 0 #555;
+    margin: 0;
+    padding: 0;
+    max-width: 17rem;
+}
+
+.banner_headline h2 {
+    color: #FFFFFF;
+    font-size: 1.1rem;
+    text-shadow: 0px 1px 0 #555;
+    margin: 0;
+    padding: 0;
+    max-width: 17rem;
+    margin-top: 2rem;
+}
+
+
+.banner_options{  
+    height: 14rem;
+    display: flex;
+}
+
+.banner1, 
+.banner2, 
+.banner3 {
+
+    flex: 1;
+    color: #FFFFFF;
+    padding: 1rem;
+
+}
+
+.banner1 {
+    background-color: #39AAE1;
+}
+
+.banner2 {
+    background-color: #0079C7;
+}
+
+.banner3 {
+    background-color: #2B4C99;
+}
+
+.banner_title{
+    font-size: 1.4rem;
+}
+
+.banner_desc{
+    font-size: 12px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.banner_options a {
+    display: inline-block;
+    border: 1px solid #FFFFFF;
+    padding: 5px;
+    color: #FFFFFF;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.timestamp{
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    color: #FFFFFF;
+    font-size: 14px;
+    border-bottom: 1px solid rgb(211, 211, 211, .2);
+}
+
+.timestamp_days,
+.timestamp_hours{
+    flex: 1;
+}
+
+.timestamp_hours {
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+#geral {
+    display: flex;
+    justify-content: center;
+}

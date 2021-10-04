@@ -5,6 +5,19 @@
         <meta name="viewport" content="width=device-width, user-scalable=0">
         <title>SiteMedico</title>
         <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+        
+        <script type="text/javascript">
+            window.onload = function(){
+                document.querySelector(".menu_mobile").addEventListener("click", function(){
+                    if(document.querySelector(".menu nav ul").style.display == 'flex') {
+                        document.querySelector(".menu nav ul").style.display = 'none'
+                    } else {
+                        document.querySelector(".menu nav ul").style.display = 'flex'
+                    }
+                });
+            };
+        </script>
+
     </head>
     <body>
         <header>
@@ -16,6 +29,11 @@
                 </div>
                 <div class="menu">
                     <nav>
+                        <div class="menu_mobile">
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                            <div class="mm_line"></div>
+                        </div>
                         <ul>
                             <li class="active"><a href="">HOME</a></li>
                             <li><a href="">HOME</a></li>
@@ -71,9 +89,239 @@
 
         <section id="geral">
             <div class="container">
+                <section>
+                    <div class="widget">
+                        <div class="widget_title"> 
+                            <div class="widget_title_text">Latest News</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body flex">
+                            <article>
+                                <a href="">
+                                    <div class="news_data"> 
+                                        <div class="news_posted_at">01 JAN 21</div>
+                                        <div class="news_comments">02</div>
+                                    </div>
+                                    <div class="news_data_tail"> </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/img/dr.jpg" alt="Um médico e seu paciente.">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci expedita molestias ea enim veritatis voluptate reprehenderit, aperiam corrupti dicta dignissimos similique autem dolorem sed asperiores consequatur quo pariatur assumenda!
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data"> 
+                                        <div class="news_posted_at">01 JAN 21</div>
+                                        <div class="news_comments">02</div>
+                                    </div>
+                                    <div class="news_data_tail"> </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/img/dr.jpg" alt="Um médico e seu paciente.">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci expedita molestias ea enim veritatis voluptate reprehenderit, aperiam corrupti dicta dignissimos similique autem dolorem sed asperiores consequatur quo pariatur assumenda!
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data"> 
+                                        <div class="news_posted_at">01 JAN 21</div>
+                                        <div class="news_comments">02</div>
+                                    </div>
+                                    <div class="news_data_tail"> </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/img/dr.jpg" alt="Um médico e seu paciente.">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci expedita molestias ea enim veritatis voluptate reprehenderit, aperiam corrupti dicta dignissimos similique autem dolorem sed asperiores consequatur quo pariatur assumenda!
+                                    </div>
+                                </a>
+                            </article>
+                            <article>
+                                <a href="">
+                                    <div class="news_data"> 
+                                        <div class="news_posted_at">01 JAN 21</div>
+                                        <div class="news_comments">02</div>
+                                    </div>
+                                    <div class="news_data_tail"> </div>
+                                    <div class="news_thumbnail">
+                                        <img src="assets/img/dr.jpg" alt="Um médico e seu paciente.">
+                                    </div>
+                                    <div class="news_title">
+                                        Lorem ipsum dolor sit amet
+                                    </div>
+                                    <div class="news_resume">
+                                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse adipisci expedita molestias ea enim veritatis voluptate reprehenderit, aperiam corrupti dicta dignissimos similique autem dolorem sed asperiores consequatur quo pariatur assumenda!
+                                    </div>
+                                </a>
+                            </article>
+                        </div>
+                    </div>
+                </section>
+                <aside>
+                    <div class="widget">
+                        <div class="widget_title"> 
+                            <div class="widget_title_text">Departments</div>
+                            <div class="widget_title_bar"></div>
+                            <div class="widget_blocks">
+                                <div class="wblock"></div>
+                                <div class="wblock"></div>
+                                <div class="wblock"></div>
+                                <div class="wblock"></div>
+                                <div class="wblock"></div>
+                                <div class="wblock"></div>
+                            </div>
+                        </div>
+                        <div class="widget_body">
 
+                        </div>
+                    </div>
+                    <div class="widget">
+
+                        <div class="widget_title"> 
+                            <div class="widget_title_text">Make an Appointment</div>
+                            <div class="widget_title_bar"></div>
+                        </div>
+                        <div class="widget_body">
+
+                            <div class="atext">
+
+                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsa tempore fugit ratione recusandae 
+
+                            </div>
+
+                            <div class="appointment">
+                                <div class="appointment_desc_tel">
+                                    <div class="appoint_square"></div> 
+                                    By phone: &nbsp; <strong>1-800-999-4444</strong>
+                                </div>
+                                <div class="appointment_desc_mail">
+                                    <div class="appoint_square"></div> 
+                                    By e-mail: &nbsp; <a href="">medicenter@medicenter.org</a>
+                                </div>
+                                <div class="appointment_desc_form">
+                                    <div class="appoint_square"></div> 
+                                    Or fill a &nbsp; <a href="">contact form</a> &nbsp; on our support page
+                                </div>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </aside>
             </div>
         </section>
+
+        <footer>
+
+            <div class="container flex_column">
+                
+                <div class="footer_menu">
+                    <div class="fm1">
+                        <a href="">
+                            <div class="fm_title">
+                                Health Insurance
+                            </div>
+                            <div class="fm_body"> Here in medicenter we have individual </div>
+                        </a>
+                    </div>
+                    <div class="fm2">
+                        <a href="">
+                            <div class="fm_title">
+                                Nedical Records
+                            </div>
+                            <div class="fm_body"> Here in medicenter we are up to record </div>
+                        </a>
+                    </div>
+                    <div class="fm3">
+                        <a href="">
+                            <div class="fm_title">
+                                Online Bill Pay
+                            </div>
+                            <div class="fm_body"> For more information click here </div>
+                        </a>
+                    </div>
+                </div>
+
+
+                <div class="footer_area">
+                    <div class="footer_area_item">
+                        <div class="widget">
+                            <div class="widget_title"> 
+                                <div class="widget_title_text">Medicenter Clinic</div>
+                                <div class="widget_title_bar"></div>
+                                <div class="widget_footer_text">
+                                    Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                </div>
+                                <div class="contact_information flex">
+                                    <address>
+                                        Medicenter Clinic <br>
+                                        33 Farlane Street <br>
+                                        Keilor East <br>
+                                        VIC 3033, Australia <br>
+                                    </address>
+                                    <div class="contact">
+                                        +123 456 789 <br>
+                                        +123 789 456 <br>
+                                        mail@mail.com <br>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="social_medias flex">
+                                <div class="social_square"></div>
+                                <div class="social_square"></div>
+                                <div class="social_square"></div>
+                                <div class="social_square"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_area_item">
+                        <div class="widget">
+                            <div class="widget_title"> 
+                                <div class="widget_title_text">Latest Posts</div>
+                                <div class="widget_title_bar"></div>
+                                <ul>
+                                    <li> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet laboriosam beatae velit hic.</p> <a href="">More</a> </li>
+                                    <li> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet laboriosam beatae velit hic.</p> <a href="">More</a> </li>
+                                    <li> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Laudantium, amet laboriosam beatae velit hic.</p> <a href="">More</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="footer_area_item">
+                        <div class="widget">
+                            <div class="widget_title"> 
+                                <div class="widget_title_text">Latest Tweets</div>
+                                <div class="widget_title_bar"></div>
+                                <ul>
+                                    <li> <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus quasi architecto, facere numquam debitis incidunt minus cumque blanditiis deleniti accusamus ea. Facilis dolores atque aspernatur dolorem esse. Quaerat, illo doloribus. </p> <a href="">More</a> </li>
+                                    <li> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi aliquam ullam reiciendis necessitatibus labore saepe nam hic illum ea non. Sed iusto nihil illum ut? Autem obcaecati est assumenda ipsa.</p> <a href="">More</a> </li>
+                                    <li> <p> Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nam reiciendis minima nihil expedita ullam necessitatibus adipisci illum asperiores soluta quaerat vel facere, nulla modi voluptate sed incidunt saepe eius.</p> <a href="">More</a> </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="footer_copy">
+                    Copyright - All rights reserved to QuanticaLabs - <a href="https://themeforest.net/item/medicenter-responsive-medical-wordpress-theme/4718613"> Medicenter Template </a>                
+                </div>
+
+            </div>
+
+        </footer>
 
     </body>
 </html>

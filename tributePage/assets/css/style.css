@@ -1,0 +1,112 @@
+
+* {
+    /* border: 1px solid red; */
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+
+.column {
+    flex-direction: column;
+}
+
+.row {
+    flex-direction: row;
+}
+
+.container {
+    display: flex;
+    width: 75%;
+    height: auto;
+}
+
+body {
+    background-color: #AAAAAA;
+}
+
+.mainHeader {
+    margin: auto;
+    background-color: #5C5C5C;
+    color: #FFFFFF;
+    height: auto;
+    border: 1px solid #5c5c5c;
+}
+
+.mainHeader h1 {
+
+    font-size: 2.5rem;
+    
+}
+
+.mainHeader h2 {
+
+    font-size: 1.5rem;
+   
+}
+
+
+.mainHeader h1, h2 {
+    text-align: center;
+    text-shadow: 2px 1px 1px black;
+
+}
+
+.mainBg {
+    background-color: #918D8D;
+}
+
+.mainSection {
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+.mainSection img {
+    max-width: 20rem;
+    align-self: center;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+    margin: 2rem;
+}
+
+.galery {
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.galery img {
+    max-width: 25rem;
+    padding: 5px;
+    margin: 2rem 2rem 0.5rem 2rem;
+}
+
+.galery figcaption {
+    text-align: center;
+    font-weight: bold;
+    font-size: 0.9rem;
+}
+
+.galeryTitle {
+    margin: auto;
+    background-color: #5C5C5C;
+}
+
+.galeryTitle h1{
+    margin: auto;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    color: #FFFFFF;
+    font-size: 2rem;
+    text-shadow: 2px 1px 1px black;
+}
+
+.mainFooter {
+    margin: auto;
+}

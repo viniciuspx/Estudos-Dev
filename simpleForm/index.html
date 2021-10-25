@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, user-scalable=0">
+        <title>A Simple Form</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+
+        <div class="container">
+            
+            <header>
+                <h1>Registration Form</h1>
+            </header>
+
+            <div class="inputForm">
+    
+                <form method="POST" action="ghost" enctype="multipart/form-data">
+        
+                    <fieldset>
+                        <legend>Personal Information</legend>
+                        <label for="inputName">Name</label>
+                        <input type="text" name="name" id="inputName" maxlength="128" required>
+                        <label for="inputDob">Date of Birth</label>
+                        <input type="date" id="inputDob" required>
+                        <label for="inputSex">Sex</label>
+                        <select name="sex" id="inputSex" required>
+                            <option value=""></option>
+                            <option value="Male">Male</option>
+                            <option value="Female">Female</option>
+                            <option value="Other">Other</option>
+                        </select>
+                        <label for="inputEmail">E-mail</label>
+                        <input type="email" id="inputEmail" required>
+                        <label for="inputMothersName">Mother's Name</label>
+                        <input type="text" id="inputMothersName">
+                        <label for="inputFathersName">Father's Name</label>
+                        <input type="text" id="inputFathersName">
+                        <label for="inputIDn">ID Number</label>
+                        <input type="number" id="inputIDn" max="9999" min="0" maxlength="4">
+                    </fieldset>
+        
+                    <fieldset>
+                        <legend>Professional Information</legend>
+                        <label for="inputCompany">Company Name</label>
+                        <input type="text" id="inputCompany">
+                        <label for="inputCompanyAddress">Company Address</label>
+                        <input type="text" id="inputCompanyAddress">
+                        <label for="inputCity">City</label>
+                        <input type="text" id="inputCity">
+                    </fieldset>
+
+                    <fieldset>
+                        <legend>Additional Information</legend>
+                        <label for="addObs">Observations</label>
+                        <textarea name="observation" id="addObs" cols="30" rows="5"></textarea>
+                    </fieldset>
+
+                    <input type="submit" value="Send" id="sendButton">
+        
+                </form>
+            
+            </div>
+
+            <footer>
+                <em> Information Society </em>
+            </footer>
+
+        </div>
+
+        
+    </body>
+</html>

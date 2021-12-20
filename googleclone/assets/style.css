@@ -1,0 +1,49 @@
+*{margin: 0;}
+
+*{border: solid 1px red;}
+
+.container {
+    width: 100%;
+    background-color: #AAA;
+}
+
+.header {
+    height: 3rem;
+}
+
+.footer {
+    height: 6rem;
+}
+
+.searcher {
+    height: calc(100vh - 9rem);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.searcher img{
+    width: fit-content;
+    margin: auto;
+}
+
+.searcher form{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    margin-top: -20rem;
+}
+
+.searcher .find{
+    width: 32rem;
+    height: 2.5rem;
+    border-radius: 2rem;
+}
+
+.searcher .button{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0.3rem;
+    margin-bottom: 0.3rem;
+    width: 35%;
+}

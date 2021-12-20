@@ -43,7 +43,7 @@ Um clone do google (incompleto).
 
 # US_EN
 
-## Estudos Dev
+## Dev Studies
 
 A simple repo for my studies in Web Dev, updated once every week at least.
 

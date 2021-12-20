@@ -1,20 +1,31 @@
-# Estudos Dev
+# PT_BR
 
-Registros dos meus estudos em Web Dev 
+## Estudos Dev
 
-Files of my studies in Web Dev
+Registros dos meus estudos em Web Dev, atualmente o desenvolvimento e o estudo está em sua fase inicial. 
 
-# Arquivos / Files
 
-## Login
+## Arquivos / Files
+
+### Login
 
 Layout simples de um página de login
 
-Simple layout of a login page
 
-## siteMedico
+### siteMedico
 
 Layout de um site Médico / Clinica
+
+Layout por Quanticallabs
+
+### Testes
+
+
+
+
+# US_EN
+
+
 
 A layout of a Medical Site
 

@@ -1,0 +1,50 @@
+input, a{
+    display: block;
+}
+
+input[required] {
+    background-color: red;
+}
+
+/* 
+.class/#id/name[attribute] {
+    ...
+} */
+
+input[type = "text"]{
+    color: green;
+}
+
+a[href="https://www.google.com"]{
+    color: saddlebrown;
+}
+
+a[href*=www]{
+    background-color: #AAA;
+}
+
+/*Contem elemento*/
+
+a[href^=http]{
+    font-size: large;
+}
+
+/*começa com*/
+
+a[href$="br"]{
+    font-size: medium;
+}
+
+/*termina com*/
+
+/**-----------------------**/
+
+div{
+   margin: 20px;
+   height: 30px;
+}
+
+div:empty{
+    background-color: red;
+    /* display: none; for example*/
+}

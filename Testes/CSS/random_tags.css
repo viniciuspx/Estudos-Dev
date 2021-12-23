@@ -1,0 +1,38 @@
+/* body :not(p){
+    background-color: red;
+}  */
+/* 
+footer div:nth-child(2){
+    background-color: red;
+}
+
+footer div:nth-last-child(2){
+    background-color: blue;
+} */
+
+body {
+    text-align: center;
+}
+
+span{
+    display: block;
+}
+
+span::before{
+    content:"";
+    display: inline-block;
+    width: 25px;
+    height: 25px;
+    background-color: red;
+    font-weight: bold;
+    border: 1px solid black;
+    font-size: 25px;
+}
+
+span::after{
+    content:"<-";
+    background-color: red;
+    font-weight: bold;
+    border: 1px solid black;
+    font-size: 25px;
+}

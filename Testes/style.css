@@ -1,38 +1,66 @@
-/* body :not(p){
-    background-color: red;
-}  */
-/* 
-footer div:nth-child(2){
-    background-color: red;
+/* .balao{
+    background-color: cyan;
+    display: inline-block;
+    padding: 20px;
+    border-radius: 20px;
 }
 
-footer div:nth-last-child(2){
-    background-color: blue;
+.balao::after{
+    content:'';
+    display: block;
+    position: absolute;
+    margin-top: 20px;
+    border: 10px solid;
+    border-color: cyan transparent transparent cyan;
 } */
 
-body {
-    text-align: center;
-}
+/* 
+body{
+    background-image: url(IMG/brickback.jpg);
+    background-size: cover;
+    background-position: center;
+} */
 
-span{
-    display: block;
-}
+/* div{
+    background-color: rgba(255, 0, 0, 0.3);
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    bottom: 0;
+} */
 
-span::before{
-    content:"";
-    display: inline-block;
-    width: 25px;
-    height: 25px;
+/* div{
     background-color: red;
-    font-weight: bold;
-    border: 1px solid black;
-    font-size: 25px;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    transform: rotateZ(180deg)
+} */
+
+.input{
+    width: 400px;
+    height: 50px;
+    font-size: 27px;
+    color: green;
 }
 
-span::after{
-    content:"<-";
-    background-color: red;
-    font-weight: bold;
-    border: 1px solid black;
-    font-size: 25px;
+.input::placeholder{
+    color: green;
+}
+
+.input::-webkit-input-placeholder{
+    color: green;
+}
+
+.input:-moz-placeholder{
+    color: green;
+}
+
+.input::-moz-placeholder{
+    color: green;
+}
+
+.input:-ms-input-placeholder{
+    color: green;
 }
